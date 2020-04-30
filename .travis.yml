@@ -12,7 +12,7 @@ env:
   global:
     - GIMME_DEBUG=1
     - GO111MODULE=on
-    - GOFLAGS='-mod vendor'
+    - GOFLAGS='-mod=vendor'
 install: skip
 script: skip
 notifications:
