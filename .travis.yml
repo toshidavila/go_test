@@ -3,6 +3,8 @@ os:
   - linux
 go:
   - stable
+git:
+  depth: 1
 before_install:
   - go get -v golang.org/x/lint/golint
   - go get github.com/mattn/goveralls
