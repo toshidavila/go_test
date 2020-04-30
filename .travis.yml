@@ -3,6 +3,7 @@ go:
   - stable
 before_install:
   - go get -v golang.org/x/lint/golint
+  - go get github.com/mattn/goveralls
 env:
   global:
     - GIMME_DEBUG=1
