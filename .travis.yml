@@ -1,5 +1,8 @@
 language: go
-go: stable
+go:
+  - stable
+before_install:
+  - go get -v golang.org/x/lint/golint
 env:
   global:
     - GIMME_DEBUG=1
