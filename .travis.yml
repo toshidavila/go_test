@@ -11,6 +11,7 @@ before_install:
 env:
   global:
     - GIMME_DEBUG=1
+    - GO111MODULE=on
 install: skip
 script: skip
 notifications:
